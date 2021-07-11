@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-interface HeaderProps {
+type HeaderProps = {
   isDarkSide: boolean;
 }
 
