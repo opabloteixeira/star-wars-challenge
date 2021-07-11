@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-interface HomeProps {
+type HomeProps = {
   isDarkSide: boolean;
 }
 
@@ -33,7 +33,9 @@ export const Content = styled.div<HomeProps>`
     div {
       margin-top: 0;
     }
-  } 
+  }
+  
+
 
   button {
     width: 350px;
@@ -59,6 +61,8 @@ export const Content = styled.div<HomeProps>`
       cursor: default;
     }
   }
+
+
 
   div {
     display: flex;
@@ -86,5 +90,14 @@ export const Content = styled.div<HomeProps>`
       line-height: 1.1rem;
       letter-spacing: 0.35em;
     }   
-  }    
+  }
+  
+  @media (max-width: 390px) {
+    button {
+      width: 90%;
+    }
+    img {
+      width: 100%;
+    }
+  } 
 `;

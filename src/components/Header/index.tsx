@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <Container isDarkSide>
       <button onClick={backPage}>
-        <BiArrowBack size={'2rem'} />
+        <BiArrowBack size={'3rem'} />
         <span>back</span>
       </button>
     </Container>
