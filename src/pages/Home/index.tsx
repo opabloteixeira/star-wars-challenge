@@ -13,22 +13,25 @@ export const Home = () => {
   
   return (
     <>      
-      <Header />
-      {isLoading && (
+      {isLoading ? (
         <ContainerLoading>
           <span className="loader"/>
           <strong>Loading...</strong>
         </ContainerLoading>
+      ) : (
+          <>
+            <Header />
+            <Container isDarkForce={isDarkForce}>
+              <Content isDarkForce={isDarkForce}>
+                <button title="retry" onClick={getLightOrDarkForce} disabled={isLoading}>choose your path again, Padawan</button>
+                <div>          
+                  <img src={isDarkForce ? vaderImg : luckImg} alt={lightOrDarkForce.name}></img>
+                  <h1>Your master is <span>{lightOrDarkForce.name}</span></h1>   
+                </div>        
+              </Content>
+            </Container>
+          </>
       )}
-      <Container isDarkForce={isDarkForce}>
-        <Content isDarkForce={isDarkForce}>
-          <button title="retry" onClick={getLightOrDarkForce} disabled={isLoading}>choose your path again, Padawan</button>
-          <div>          
-            <img src={isDarkForce ? vaderImg : luckImg} alt={lightOrDarkForce.name}></img>
-            <h1>Your master is <span>{lightOrDarkForce.name}</span></h1>   
-          </div>        
-        </Content>
-      </Container>
     </>
   );
 }
