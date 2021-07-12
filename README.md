@@ -40,7 +40,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) From y
 ```bash
 
 # Clone this repository
-$ git clone https://github.com/opabloteixeira/star-wars-challenge
+$ git clone git@github.com:opabloteixeira/star-wars-challenge.git
 
 # Go into the repository
 $ cd star-wars-challenge
