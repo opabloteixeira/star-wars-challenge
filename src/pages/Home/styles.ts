@@ -83,10 +83,6 @@ export const Content = styled.div<HomeProps>`
       filter: brightness(0.8);
     }
 
-    &:disabled {
-      filter: opacity(5);
-      cursor: default;
-    }
   }
 
   div {
