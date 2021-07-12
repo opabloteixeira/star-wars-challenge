@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<div align="center">
+    <img height=200 alt="Darth Vader image" src="./src/assets/img/print-vader.png" />
+    <br>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h4 align="center">
+  Test application for simultaneous api calls, state management and hooks <br>
+  <!-- <a target="blank" align="center" href="https://happy-eight.vercel.app/">click to access the project ( without api )</a> -->
+</h4>
 
-In the project directory, you can run:
 
-### `yarn start`
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!--<a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
+  <a href="#information">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :rocket: Technologies
+This project was developed with the following technologies:
+-  [ReactJS](https://reactjs.org/)
+-  [Typescript](https://www.typescriptlang.org/)
+-  [VS Code][vc]
+-  [React-Icons](https://react-icons.netlify.com/)
+-  [Styled-Components](https://www.styled-components.com/)
+-  [React-router-dom](https://www.npmjs.com/package/react-router-dom)
+-  [Axios](https://github.com/axios/axios)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :information: How To Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To clone and run this application, you'll need [Git](https://git-scm.com) From your command line:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
 
-### `yarn eject`
+# Clone this repository
+$ git clone https://github.com/opabloteixeira/star-wars-challenge
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Go into the repository
+$ cd star-wars-challenge
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+$ yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Run the app
+$ yarn start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with ♥ by Pablo Teixeira :male_detective: [My Linkedin](https://www.linkedin.com/in/pablo-teixeira-30713777/)
+

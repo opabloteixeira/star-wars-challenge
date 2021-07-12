@@ -1,14 +1,14 @@
 import { useHistory } from 'react-router-dom';
-// import { useStrengthSide } from '../../context/StrengthSideContext';
+import { useLightOrDarkForce } from '../../hooks/useLightOrDarkForce';
 
 import { Container, Content } from './styles';
 
-export function Main() {  
+export const Main = () => {  
   let history = useHistory()
-  // const { getStrengthSide } = useStrengthSide(); 
+  const { getLightOrDarkForce } = useLightOrDarkForce(); 
 
   function redirectToStrengthSidePage() {
-    // getStrengthSide();
+    getLightOrDarkForce();
     history.push("/home")
   }
 
@@ -17,7 +17,6 @@ export function Main() {
       <Content>
         <h1>Welcome to <span>iClinic</span></h1>   
         <p>FRONTEND CHALLENGE</p> 
-
         <button onClick={redirectToStrengthSidePage}>START</button>
       </Content>
     </Container>
