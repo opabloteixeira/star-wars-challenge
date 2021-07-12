@@ -24,7 +24,11 @@ export const ContainerLoading = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: var(--black);
   
+  strong {
+    color: var(--white)
+  }
   span {
     width: 130px;
     height: 130px;
