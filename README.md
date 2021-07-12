@@ -1,5 +1,5 @@
 <div align="center">
-    <img height=200 alt="Darth Vader image" src="./src/assets/img/print-vader.png" />
+    <img height=300 alt="Darth Vader image" src="./src/assets/img/print-vader.png" />
     <br>
 </div>
 
@@ -10,8 +10,10 @@
   <a target="blank" align="center" href="https://star-wars-challenge-beta.vercel.app/">click to access the project <br /> https://star-wars-challenge-beta.vercel.app/</a>
 </h4>
 
+</br>
+</br>
 
-<a align="center">
+<p align='center'>
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <!--<a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
   <a href="#information_source-how-to-use">How To Use</a>
@@ -25,7 +27,7 @@
 This project was developed with the following technologies:
 -  [ReactJS](https://reactjs.org/)
 -  [Typescript](https://www.typescriptlang.org/)
--  [VS Code][vc]
+-  [VS Code](https://code.visualstudio.com/)
 -  [React-Icons](https://react-icons.netlify.com/)
 -  [Styled-Components](https://www.styled-components.com/)
 -  [React-router-dom](https://www.npmjs.com/package/react-router-dom)
