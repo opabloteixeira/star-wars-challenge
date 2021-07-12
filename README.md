@@ -3,17 +3,18 @@
     <br>
 </div>
 
+</br>
 
 <h4 align="center">
   Test application for simultaneous api calls, state management and hooks <br>
-  <!-- <a target="blank" align="center" href="https://happy-eight.vercel.app/">click to access the project ( without api )</a> -->
+  <a target="blank" align="center" href="https://star-wars-challenge-beta.vercel.app/">click to access the project <br /> https://star-wars-challenge-beta.vercel.app/</a>
 </h4>
 
 
-<p align="center">
+<a align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <!--<a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
-  <a href="#information">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>
 </p>
 
 </br>
@@ -31,7 +32,7 @@ This project was developed with the following technologies:
 -  [Axios](https://github.com/axios/axios)
 
 
-## :information: How To Use
+## :information_source: How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com) From your command line:
 
