@@ -21,8 +21,12 @@ export const Home = () => {
       ) : (
           <>
             <Header />
-            <Container isDarkForce={isDarkForce}>
-              <Content isDarkForce={isDarkForce}>
+            <Container
+              isDarkForce={isDarkForce}
+            >
+              <Content
+                isDarkForce={isDarkForce}
+              >
                 <button title="retry" onClick={getLightOrDarkForce} disabled={isLoading}>choose your path again, Padawan</button>
                 <div>          
                   <img src={isDarkForce ? vaderImg : luckImg} alt={lightOrDarkForce.name}></img>

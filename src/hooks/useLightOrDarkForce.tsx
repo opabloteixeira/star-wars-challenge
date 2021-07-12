@@ -36,8 +36,6 @@ export const LightOrDarkForceProvider = (props: lightOrDarkForceProviderProps) =
       .then(async([responseLightForce, responseDarkForce]) => { 
         const durationLightForce = await responseLightForce.headers.duration;
         const durationDarkForce = await responseDarkForce.headers.duration;
-        console.log({durationLightForce});
-        console.log({durationDarkForce});
 
         let responseData = responseDarkForce.data;
         

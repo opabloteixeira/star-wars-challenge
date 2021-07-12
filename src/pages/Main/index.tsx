@@ -7,7 +7,7 @@ export const Main = () => {
   let history = useHistory()
   const { getLightOrDarkForce } = useLightOrDarkForce(); 
 
-  function redirectToStrengthSidePage() {
+  const redirectToStrengthSidePage = () => {
     getLightOrDarkForce();
     history.push("/home")
   }
