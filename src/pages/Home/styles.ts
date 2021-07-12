@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 type HomeProps = {
-  isDarkSide: boolean;
+  isDarkForce: boolean;
 }
 
 export const Container = styled.div<HomeProps>`
@@ -10,11 +10,38 @@ export const Container = styled.div<HomeProps>`
   width: 100%;
   margin: 0 auto;
 
-  background: ${props => props.isDarkSide ? `var(--black)` : `var(--yellow)`};
+  background: ${props => props.isDarkForce ? `var(--black)` : `var(--yellow)`};
 
   display: flex;
   align-items: baseline;
   justify-content: center;
+`;
+
+export const ContainerLoading = styled.div`
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  span {
+    width: 130px;
+    height: 130px;
+    border: 16px solid #eee;
+    border-bottom-color: var(--blue);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    animation: rotate 1.5s linear infinite;
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
 `;
 
 export const Content = styled.div<HomeProps>`
@@ -22,7 +49,7 @@ export const Content = styled.div<HomeProps>`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: ${props => props.isDarkSide ? `var(--white)` : `var(--black)` };   
+  color: ${props => props.isDarkForce ? `var(--white)` : `var(--black)` };   
   margin-top: 60px;
 
   @media (max-width: 800px) {
@@ -42,8 +69,8 @@ export const Content = styled.div<HomeProps>`
     height: 3.5rem;
     border: 0;
     border-radius: 0.65rem;
-    background: ${props => props.isDarkSide ? `var(--white)` : `var(--black)` };
-    color: ${props => props.isDarkSide ? `var(--black)` : `var(--yellow)` };
+    background: ${props => props.isDarkForce ? `var(--white)` : `var(--black)` };
+    color: ${props => props.isDarkForce ? `var(--black)` : `var(--yellow)` };
 
     font-style: normal;
     font-weight: bold;
@@ -53,7 +80,7 @@ export const Content = styled.div<HomeProps>`
     transition: filter 0.2s;
 
     &:hover {
-      filter: brightness(0.9);
+      filter: brightness(0.8);
     }
 
     &:disabled {
@@ -61,8 +88,6 @@ export const Content = styled.div<HomeProps>`
       cursor: default;
     }
   }
-
-
 
   div {
     display: flex;
